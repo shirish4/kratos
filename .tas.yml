@@ -7,7 +7,7 @@ preRun:
     - "go mod vendor"
 
 postMerge:
-  # THIRDLY - You need to set postMerge patterns
+  # THIRDLY - You need to set postMerge patterns.
   # These would be the glob patterns for the test cases that you want to execute in the post-merge jobs. A postMerge test execution job is initiated whenever a PR is merged into a branch.
   pattern:
     # glob-patterns to discover tests to run in case of postMerge
